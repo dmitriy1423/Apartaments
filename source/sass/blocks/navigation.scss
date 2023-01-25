@@ -1,0 +1,21 @@
+.navigation {
+  font-weight: 500;
+}
+
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  max-width: 360px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 49px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.navigation__link {
+  padding: 10px 0;
+  color: #ffffff;
+  text-decoration: none;
+}

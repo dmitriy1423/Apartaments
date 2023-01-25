@@ -149,9 +149,11 @@ export default gulp.series (
   copy,
   copyImages,
   gulp.parallel (
+    styles,
     html,
     scripts,
-    svg
+    svg,
+    createWebp
   ),
   sprite,
   gulp.series (
