@@ -1,6 +1,7 @@
 @use "global/fonts.scss";
 @use "global/visually-hidden.scss";
 @use "blocks/page.scss";
+@use "blocks/main-container.scss";
 @use "blocks/header.scss";
 @use "blocks/logo.scss";
 @use "blocks/telephone.scss";
@@ -13,3 +14,6 @@
 @use "blocks/footer.scss";
 @use "blocks/social.scss";
 @use "blocks/license.scss";
+@use "blocks/about.scss";
+@use "blocks/contacts.scss";
+@use "blocks/staff.scss";
