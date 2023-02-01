@@ -3,6 +3,7 @@
   align-items: center;
   padding: 9px 20px;
   border-radius: 20px;
+  border: none;
   outline: 1px solid #646464;
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
@@ -11,6 +12,7 @@
   line-height: 22px;
   color: #2a2a2a;
   text-decoration: none;
+  cursor: pointer;
 
   &:hover {
     background-color: #2a2a2a;
